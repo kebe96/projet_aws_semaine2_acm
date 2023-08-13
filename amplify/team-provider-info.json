@@ -1,0 +1,37 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-projetawssemaine2acm-dev-173248-authRole",
+      "UnauthRoleArn": "arn:aws:iam::562041342759:role/amplify-projetawssemaine2acm-dev-173248-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::562041342759:role/amplify-projetawssemaine2acm-dev-173248-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-projetawssemaine2acm-dev-173248-deployment",
+      "UnauthRoleName": "amplify-projetawssemaine2acm-dev-173248-unauthRole",
+      "StackName": "amplify-projetawssemaine2acm-dev-173248",
+      "StackId": "arn:aws:cloudformation:us-east-1:562041342759:stack/amplify-projetawssemaine2acm-dev-173248/7fb4e9c0-3925-11ee-b1ef-0ec9d2ab72e3",
+      "AmplifyAppId": "durtytwn3xpq8",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-projetawssemaine2acm-dev-173248-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "projetawssemaine2acm3af0c993": {},
+        "projetawssemaine2acm70fd0ad0": {
+          "deploymentBucketName": "amplify-projetawssemaine2acm-dev-173248-deployment",
+          "s3Key": "amplify-builds/projetawssemaine2acm70fd0ad0-76386547544354366343-build.zip"
+        }
+      },
+      "auth": {
+        "projetawssemaine2acm": {}
+      },
+      "api": {
+        "api9fcc498d": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "durtytwn3xpq8",
+          "type": "cicd"
+        }
+      }
+    }
+  }
+}
