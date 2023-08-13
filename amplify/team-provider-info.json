@@ -23,7 +23,10 @@
           "deploymentBucketName": "amplify-projetawssemaine2acm-dev-173248-deployment",
           "s3Key": "amplify-builds/S3Trigger864ddf82-4a7145566f4d312f796f-build.zip"
         },
-        "projetawssemaine2acm74fa3841": {}
+        "projetawssemaine2acm74fa3841": {
+          "deploymentBucketName": "amplify-projetawssemaine2acm-dev-173248-deployment",
+          "s3Key": "amplify-builds/projetawssemaine2acm74fa3841-39577751696e42686f37-build.zip"
+        }
       },
       "auth": {
         "projetawssemaine2acm": {}

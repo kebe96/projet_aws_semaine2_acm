@@ -106,6 +106,22 @@
         }
       ]
     },
+    "AMPLIFY_function_projetawssemaine2acm74fa3841_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "projetawssemaine2acm74fa3841"
+        }
+      ]
+    },
+    "AMPLIFY_function_projetawssemaine2acm74fa3841_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "projetawssemaine2acm74fa3841"
+        }
+      ]
+    },
     "AMPLIFY_hosting_amplifyhosting_appId": {
       "usedBy": [
         {
