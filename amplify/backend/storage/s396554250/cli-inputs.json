@@ -1,0 +1,14 @@
+{
+  "resourceName": "s396554250",
+  "policyUUID": "96554250",
+  "bucketName": "projetawssemaine2acmf60cfe3dad1b414cb943fddd33f",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "S3Trigger864ddf82",
+  "groupAccess": {}
+}
