@@ -18,7 +18,12 @@
         "projetawssemaine2acm70fd0ad0": {
           "deploymentBucketName": "amplify-projetawssemaine2acm-dev-173248-deployment",
           "s3Key": "amplify-builds/projetawssemaine2acm70fd0ad0-76386547544354366343-build.zip"
-        }
+        },
+        "S3Trigger864ddf82": {
+          "deploymentBucketName": "amplify-projetawssemaine2acm-dev-173248-deployment",
+          "s3Key": "amplify-builds/S3Trigger864ddf82-4a7145566f4d312f796f-build.zip"
+        },
+        "projetawssemaine2acm74fa3841": {}
       },
       "auth": {
         "projetawssemaine2acm": {}
@@ -31,6 +36,9 @@
           "appId": "durtytwn3xpq8",
           "type": "cicd"
         }
+      },
+      "storage": {
+        "s396554250": {}
       }
     }
   }

@@ -9,6 +9,14 @@
           ],
           "category": "function",
           "resourceName": "projetawssemaine2acm70fd0ad0"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "projetawssemaine2acm74fa3841"
         }
       ],
       "providerPlugin": "awscloudformation",
@@ -51,6 +59,11 @@
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
+    },
+    "projetawssemaine2acm74fa3841": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
     }
   },
   "hosting": {
@@ -58,6 +71,56 @@
       "lastPushTimeStamp": "2023-08-12T15:55:25.472Z",
       "service": "amplifyhosting",
       "type": "cicd"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_S3Trigger864ddf82_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "S3Trigger864ddf82"
+        }
+      ]
+    },
+    "AMPLIFY_function_S3Trigger864ddf82_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "S3Trigger864ddf82"
+        }
+      ]
+    },
+    "AMPLIFY_function_projetawssemaine2acm70fd0ad0_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "projetawssemaine2acm70fd0ad0"
+        }
+      ]
+    },
+    "AMPLIFY_function_projetawssemaine2acm70fd0ad0_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "projetawssemaine2acm70fd0ad0"
+        }
+      ]
+    },
+    "AMPLIFY_hosting_amplifyhosting_appId": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
+    },
+    "AMPLIFY_hosting_amplifyhosting_type": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
     }
   },
   "storage": {

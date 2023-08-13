@@ -13,6 +13,19 @@
           "delete"
         ]
       }
+    },
+    "/bucketS3": {
+      "name": "/bucketS3",
+      "lambdaFunction": "projetawssemaine2acm74fa3841",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
     }
   }
 }
