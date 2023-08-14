@@ -73,6 +73,72 @@
       "type": "cicd"
     }
   },
+  "parameters": {
+    "AMPLIFY_function_S3Trigger864ddf82_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "S3Trigger864ddf82"
+        }
+      ]
+    },
+    "AMPLIFY_function_S3Trigger864ddf82_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "S3Trigger864ddf82"
+        }
+      ]
+    },
+    "AMPLIFY_function_projetawssemaine2acm70fd0ad0_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "projetawssemaine2acm70fd0ad0"
+        }
+      ]
+    },
+    "AMPLIFY_function_projetawssemaine2acm70fd0ad0_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "projetawssemaine2acm70fd0ad0"
+        }
+      ]
+    },
+    "AMPLIFY_function_projetawssemaine2acm74fa3841_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "projetawssemaine2acm74fa3841"
+        }
+      ]
+    },
+    "AMPLIFY_function_projetawssemaine2acm74fa3841_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "projetawssemaine2acm74fa3841"
+        }
+      ]
+    },
+    "AMPLIFY_hosting_amplifyhosting_appId": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
+    },
+    "AMPLIFY_hosting_amplifyhosting_type": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
+    }
+  },
   "storage": {
     "s396554250": {
       "dependsOn": [
