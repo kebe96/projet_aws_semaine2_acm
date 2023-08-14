@@ -112,4 +112,3 @@ const styles = {
 }
 
 export default withAuthenticator(App);
-
