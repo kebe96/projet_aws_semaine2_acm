@@ -10,6 +10,8 @@ import { withAuthenticator, Button, Heading } from '@aws-amplify/ui-react';
 
 
 
+
+
 import '@aws-amplify/ui-react/styles.css';
 
 
@@ -47,27 +49,58 @@ const App = () => {
   const addImage = (imageData) => {
     setImages([...images, imageData]);
   };
+  //envoyer une image vers le bucket S3
+  const uploadImageToS3 = async (file) => {
+    try {
+      const response = await API.post('api9fcc498d', '/uploadImage', {
+        body: {
+          image: file,
+        },
+      });
+      console.log('Image uploaded successfully:', response);
+    } catch (error) {
+      console.error('Error uploading image:', error);
+    }
+  };
+  
 
   return (
+    // <div>
+    //   <h1>Page d'accueil</h1>
+    //   <ImageUploader  uploadImageToS3={uploadImageToS3} onSubmit={addImage} />
+    //   <div>
+    //    {/* // <img src="https://projetawssemaine2acmf60cfe3dad1b414cb943fddd33f173248-dev.s3.amazonaws.com/mansour.png" className="App-logo" alt="logo" /> */}
+    //     <h2>Images téléversées :</h2>
+    //     {images.map((imageData, index) => (
+    //       <div key={index}>
+         
+    //         <img src={imageData.image} alt={`Image ${index}`} style={{ maxWidth: '100px' }} />
+    //         <p>Commentaire : {imageData.comment}</p>
+    //         <p>Note : {imageData.rating}</p>
+    //       </div>
+    //     ))}
+    //   </div>
+    // </div>
     <div>
-      <h1>Page d'accueil</h1>
-      <ImageUploader onSubmit={addImage} />
-      <div>
-        <img src="https://projetawssemaine2acmf60cfe3dad1b414cb943fddd33f173248-dev.s3.amazonaws.com/mansour.png" className="App-logo" alt="logo" />
-        <h2>Images téléversées :</h2>
-        {images.map((imageData, index) => (
-          <div key={index}>
-            <img src={imageData.image} alt={`Image ${index}`} style={{ maxWidth: '100px' }} />
-            <p>Commentaire : {imageData.comment}</p>
-            <p>Note : {imageData.rating}</p>
-          </div>
-        ))}
-      </div>
+    <h1>Page d'accueil</h1>
+    <ImageUploader uploadImageToS3={uploadImageToS3} onSubmit={addImage} />
+    <div>
+    {/* <img src="https://projetawssemaine2acmf60cfe3dad1b414cb943fddd33f173248-dev.s3.amazonaws.com/mansour.png" className="App-logo" alt="logo" /> */}
+    <h2>Images téléversées :</h2>
+            {images.map((imageData, index) => (
+    <div key={index}>
+    <img src={imageData.image} alt={`Image ${index}`} style={{ maxWidth: '100px' }} />
+    <p>Commentaire : {imageData.comment}</p>
+    <p>Note : {imageData.rating}</p>
     </div>
+            ))}
+    </div>
+    </div>
+      
   );
 };
 //je veux mettre a jour mon fichier
-<p>je veux mettre a jour mon fichier</p>
+
 
 const styles = {
   container: { width: 400, margin: '0 auto', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: 20 },
