@@ -99,7 +99,6 @@ const App = () => {
       
   );
 };
-<p></p>
 
 
 const styles = {
